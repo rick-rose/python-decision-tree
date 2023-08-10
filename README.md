@@ -1,7 +1,7 @@
 # Python Decision Tree
 
 ## Description
-This is a decision tree using Premier League Table results from 1993 to 2023 to predict table ranking.
+This is a decision tree using the Wine Quality Dataset.
 
 ## Technologies
 + Python
@@ -10,7 +10,7 @@ This is a decision tree using Premier League Table results from 1993 to 2023 to 
 ## What is a decision tree?
 Simply put, a decision tree is a machine learning method to classify observations. The resulting tree structure resembles a flowchart with a series of `if-then` statements making it easy to understand and interpret.
 
-![Diagram of Generic Decision Tree](resources/generic_tree.png?raw=true)
+![Diagram of Generic Decision Tree](resources/tree.png?raw=true)
 
 ## How does a decision tree work?
 1. Use an attribute selection measure or ASM to find the best data attribute to split the data. ASM is a heuristic that acts like a shortcut to simplify a problem and provide a solution in a feasible amount of time.
@@ -27,7 +27,7 @@ Simply put, a decision tree is a machine learning method to classify observation
 + Entropy determines the disorder or randomness of data. An Entropy value is within the interval `[0, 1]`. The objective is to reduce entropy.
 
 ### Example
-Build a decision tree to predict the quality of wine using the [Wine Quality Datset](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset).
+Build a decision tree to predict the quality of wine using the [Wine Quality Dataset](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset).
 
 #### Result 1
 | Command | Prompts | Description |
@@ -37,7 +37,7 @@ Build a decision tree to predict the quality of wine using the [Wine Quality Dat
 | pruning strategy | none |
 | Accuracy | 0.5714285714285714 |
 
-![No Pruning](resources/wine_1.png?raw=true)
+![Result 1](resources/wine_1.png?raw=true)
 
 #### Result 2
 | Command | Prompts | Description |
@@ -47,7 +47,7 @@ Build a decision tree to predict the quality of wine using the [Wine Quality Dat
 | pruning strategy | max depth of 3 |
 | Accuracy | 0.5830903790087464 |
 
-![No Pruning](resources/wine_2.png?raw=true)
+![Result 2](resources/wine_2.png?raw=true)
 
 #### Result 3
 | Command | Prompts | Description |
@@ -57,7 +57,7 @@ Build a decision tree to predict the quality of wine using the [Wine Quality Dat
 | pruning strategy | max depth of 5 |
 | Accuracy | 0.5889212827988338 |
 
-![No Pruning](resources/wine_3.png?raw=true)
+![Result 3](resources/wine_3.png?raw=true)
 
 #### Result 4
 | Command | Prompts | Description |
@@ -67,7 +67,7 @@ Build a decision tree to predict the quality of wine using the [Wine Quality Dat
  pruning strategy | max depth of 7 |
 | Accuracy | 0.6034985422740525 |
 
-![No Pruning](resources/wine_4.png?raw=true)
+![Result 4](resources/wine_4.png?raw=true)
 
 
 ### References
